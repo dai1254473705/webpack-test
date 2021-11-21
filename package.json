@@ -1,0 +1,32 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "webpack学习",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dai1254473705/webpack-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dai1254473705/webpack-test/issues"
+  },
+  "homepage": "https://github.com/dai1254473705/webpack-test#readme",
+  "dependencies": {
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "css-loader": "^6.5.1",
+    "loader-runner": "^4.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
